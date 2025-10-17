@@ -1,39 +1,45 @@
 # Final Test App
 
-A simple web application that displays a test success message with a distinctive green background design.
+A simple interactive web application that demonstrates dynamic content updates through user interaction. This project features a clickable button that changes the main heading text while maintaining a distinctive green background theme.
 
 ## Features
 
-- **Success Status Display**: Prominent H1 heading with "Test Success" message
-- **Accessible Design**: Properly structured HTML with semantic elements and unique ID
-- **Responsive Layout**: Clean, centered design that works across different screen sizes
-- **Visual Feedback**: Green background color scheme for clear success indication
+- **Interactive Button**: Click the "Click Me" button to update the main heading
+- **Dynamic Text Update**: H1 text changes from "Test Success" to "Updated!" when the button is clicked
+- **Clean Design**: Maintains a consistent green background with centered, white text
+- **Responsive Layout**: Centered button and heading for optimal viewing across devices
 
 ## Setup Instructions
 
-1. **Download the HTML file** or copy the code to a new file named `index.html`
+1. **Download the HTML file** to your local machine
+2. **Open the file** in any modern web browser (Chrome, Firefox, Safari, Edge)
+3. **Click the "Click Me" button** to see the text change in action
 
-2. **Open in browser**:
-   - Double-click the HTML file to open in your default browser
-   - Or right-click and select "Open with" your preferred browser
+No additional setup, dependencies, or server configuration required.
 
-3. **For web server deployment**:
-   - Upload the HTML file to your web server
-   - Access via your domain/hosting URL
+## Code Explanation
 
-No additional dependencies or build processes required.
+This is a self-contained HTML application that includes:
 
-## Code Overview
+- **HTML Structure**: Simple layout with an H1 heading and button element
+- **CSS Styling**: 
+  - Green background for the entire page
+  - Centered, white text styling for the heading
+  - Styled button with hover cursor indication
+- **JavaScript Functionality**: 
+  - Event listener attached to the button with ID `test-btn`
+  - DOM manipulation to update the H1 element's text content on click
 
-This is a standalone HTML application featuring:
-
-- **HTML Structure**: Semantic HTML5 with proper document structure
-- **CSS Styling**: Embedded styles for green background theme and centered typography
-- **Accessibility**: Unique element ID (`status`) for easy DOM targeting and testing
-- **Responsive Design**: Viewport meta tag and flexible layout for mobile compatibility
-
-The application uses a clean, minimal approach with inline CSS for simplicity and portability.
+The application uses vanilla JavaScript and CSS with no external dependencies, making it lightweight and fast-loading.
 
 ## License
 
-MIT License - feel free to use, modify, and distribute as needed.
+MIT License
+
+Copyright (c) 2024
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
