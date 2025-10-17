@@ -17,9 +17,24 @@
             text-align: center;
             margin: 0;
         }
+        
+        #test-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <h1 id="status">Test Success</h1>
+    <button id="test-btn">Click Me</button>
+    
+    <script>
+        document.getElementById('test-btn').addEventListener('click', function() {
+            document.getElementById('status').textContent = 'Updated!';
+        });
+    </script>
 </body>
 </html>
